@@ -1,0 +1,21 @@
+﻿@model WeatherStationCode.CurrentCoditionsDisplay  
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Book Club</h1>
+    <p class="lead">Observer Pattern</p>
+  
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Current Conditions Display</h2>
+        <p>
+            @Model.display()
+        </p>
+        
+    </div>
+    
+</div>
